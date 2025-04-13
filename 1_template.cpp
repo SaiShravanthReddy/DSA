@@ -46,5 +46,5 @@ int main()
 
     printf("Area of the rectangle is %d and perimeter of rectangle is %d", a, p);
 
-
+    return 0;
 }
