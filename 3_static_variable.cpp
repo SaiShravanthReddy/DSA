@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <iostream>
 
+// the static variable will be initialized only once in code section, and it will be retained in memory until the program terminates.
 int fun(int a){
 
     static int x = 0;
