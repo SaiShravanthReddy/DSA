@@ -13,12 +13,12 @@ double e(int x, int n) {
     r = e(x, n - 1);
     p = p * x; // calculate power of x
     f = f * n; // calculate factorial of n
-
+    
     return  r + (p / f); // recursive call and add current term
 }
 
 int main() {
-    int x = 10, n = 10; // example values for x and n
+    int x = 1, n = 3; // example values for x and n
     printf("e^%d = %f\n", x, e(x, n)); // print the result of e^x using Taylor series
     return 0;
 }
